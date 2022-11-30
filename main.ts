@@ -1,0 +1,10 @@
+basic.forever(function () {
+    basic.showString("Hello!")
+    basic.pause(200)
+    basic.showIcon(IconNames.Heart)
+    basic.pause(50000)
+    basic.showIcon(IconNames.Yes)
+    basic.pause(50000)
+    basic.showNumber(9)
+    basic.pause(50000)
+})
